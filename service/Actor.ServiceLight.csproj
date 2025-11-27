@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFrameworks>net8.0</TargetFrameworks>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>ServiceLight</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Dapr.Actors.AspNetCore" Version="1.16.0" />
+    <ProjectReference Include="..\interfaces\Light.Interfaces.csproj" />
+  </ItemGroup>
+
+</Project>
+

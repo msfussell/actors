@@ -1,0 +1,33 @@
+{
+  "version": 2,
+  "dgSpecHash": "LXYM1DDWXFA=",
+  "success": true,
+  "projectFilePath": "/Users/markfussell/dev/src/dotnet/actors/service/Actor.ServiceLight.csproj",
+  "expectedPackageFiles": [
+    "/Users/markfussell/.nuget/packages/dapr.actors/1.16.0/dapr.actors.1.16.0.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/dapr.actors.aspnetcore/1.16.0/dapr.actors.aspnetcore.1.16.0.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/dapr.client/1.16.0/dapr.client.1.16.0.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/dapr.common/1.16.0/dapr.common.1.16.0.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/dapr.protos/1.16.0/dapr.protos.1.16.0.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/google.api.commonprotos/2.17.0/google.api.commonprotos.2.17.0.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/google.protobuf/3.32.0/google.protobuf.3.32.0.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/grpc.core.api/2.71.0/grpc.core.api.2.71.0.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/grpc.net.client/2.71.0/grpc.net.client.2.71.0.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/grpc.net.common/2.71.0/grpc.net.common.2.71.0.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.configuration/9.0.8/microsoft.extensions.configuration.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.configuration.abstractions/9.0.8/microsoft.extensions.configuration.abstractions.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.configuration.binder/9.0.8/microsoft.extensions.configuration.binder.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.dependencyinjection/9.0.8/microsoft.extensions.dependencyinjection.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/9.0.8/microsoft.extensions.dependencyinjection.abstractions.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.diagnostics/9.0.8/microsoft.extensions.diagnostics.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.diagnostics.abstractions/9.0.8/microsoft.extensions.diagnostics.abstractions.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.http/9.0.8/microsoft.extensions.http.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.logging/9.0.8/microsoft.extensions.logging.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.logging.abstractions/9.0.8/microsoft.extensions.logging.abstractions.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.options/9.0.8/microsoft.extensions.options.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.options.configurationextensions/9.0.8/microsoft.extensions.options.configurationextensions.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/microsoft.extensions.primitives/9.0.8/microsoft.extensions.primitives.9.0.8.nupkg.sha512",
+    "/Users/markfussell/.nuget/packages/system.diagnostics.diagnosticsource/9.0.8/system.diagnostics.diagnosticsource.9.0.8.nupkg.sha512"
+  ],
+  "logs": []
+}

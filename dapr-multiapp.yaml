@@ -1,0 +1,11 @@
+version: 1
+common:
+  resourcesPath: ./resources
+apps:
+  - appID: ActorService
+    appDirPath: ./service
+    appPort: 5008
+    command: ["dotnet", "run", "--framework", "net8.0"]
+  - appID: ActorClient
+    appDirPath: ./client
+    command: ["dotnet", "run", "--framework", "net8.0"]

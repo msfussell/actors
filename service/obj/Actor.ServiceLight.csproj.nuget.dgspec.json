@@ -1,0 +1,147 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/markfussell/dev/src/dotnet/actors/service/Actor.ServiceLight.csproj": {}
+  },
+  "projects": {
+    "/Users/markfussell/dev/src/dotnet/actors/interfaces/Light.Interfaces.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/markfussell/dev/src/dotnet/actors/interfaces/Light.Interfaces.csproj",
+        "projectName": "Light.Interfaces",
+        "projectPath": "/Users/markfussell/dev/src/dotnet/actors/interfaces/Light.Interfaces.csproj",
+        "packagesPath": "/Users/markfussell/.nuget/packages/",
+        "outputPath": "/Users/markfussell/dev/src/dotnet/actors/interfaces/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/markfussell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapr.Actors": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/markfussell/dev/src/dotnet/actors/service/Actor.ServiceLight.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/markfussell/dev/src/dotnet/actors/service/Actor.ServiceLight.csproj",
+        "projectName": "ServiceLight",
+        "projectPath": "/Users/markfussell/dev/src/dotnet/actors/service/Actor.ServiceLight.csproj",
+        "packagesPath": "/Users/markfussell/.nuget/packages/",
+        "outputPath": "/Users/markfussell/dev/src/dotnet/actors/service/obj/",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "configFilePaths": [
+          "/Users/markfussell/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/markfussell/dev/src/dotnet/actors/interfaces/Light.Interfaces.csproj": {
+                "projectPath": "/Users/markfussell/dev/src/dotnet/actors/interfaces/Light.Interfaces.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Dapr.Actors.AspNetCore": {
+              "target": "Package",
+              "version": "[1.16.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/9.0.306/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

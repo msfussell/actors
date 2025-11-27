@@ -1,0 +1,21 @@
+
+
+@daprHttp=http://localhost:3500
+
+GET  {{ daprHttp }}/v1.0/actors/LightActor/light-42/method/GetBrightnessAsync
+dapr-app-id: ActorService
+
+
+### Increase Brightness
+POST {{ daprHttp }}/v1.0/actors/LightActor/light-42/method/IncreaseBrightnessAsync
+dapr-app-id: ActorService
+Content-Type: application/json
+
+10
+
+### Decrease Brightness
+POST {{ daprHttp }}/v1.0/actors/LightActor/light-42/method/DecreaseBrightnessAsync
+dapr-app-id: ActorService
+Content-Type: application/json
+
+5

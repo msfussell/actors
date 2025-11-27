@@ -1,0 +1,7 @@
+version: 1
+common:
+  resourcesPath: ../resources
+apps:
+  - appID: ActorClient
+    appDirPath: ./
+    command: ["dotnet", "run", "--framework", "net8.0"]

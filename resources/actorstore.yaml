@@ -1,0 +1,17 @@
+apiVersion: dapr.io/v1alpha1
+kind: Component
+metadata:
+  name: actorstore
+spec:
+  type: state.redis
+  version: v1
+  metadata:
+    - name: redisHost
+      value: localhost:6379
+    - name: redisPassword
+      value: ""
+    - name: enableTLS
+      value: false
+      # 👇 This line is required for actors and reminders
+    - name: actorStateStore
+      value: "true"

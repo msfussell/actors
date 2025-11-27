@@ -1,0 +1,9 @@
+version: 1
+common:
+  resourcesPath: ../resources
+apps:
+  - appID: ActorService
+    appDirPath: ./
+    appPort: 5008
+    daprHTTPPort: 3500
+    command: ["dotnet", "run", "--framework", "net8.0"]

@@ -1,0 +1,12 @@
+/Users/markfussell/dev/src/dotnet/actors/interfaces/bin/Debug/net8.0/Counter.Interfaces.deps.json
+/Users/markfussell/dev/src/dotnet/actors/interfaces/bin/Debug/net8.0/Counter.Interfaces.dll
+/Users/markfussell/dev/src/dotnet/actors/interfaces/bin/Debug/net8.0/Counter.Interfaces.pdb
+/Users/markfussell/dev/src/dotnet/actors/interfaces/obj/Debug/net8.0/Counter.Interfaces.csproj.AssemblyReference.cache
+/Users/markfussell/dev/src/dotnet/actors/interfaces/obj/Debug/net8.0/Counter.Interfaces.GeneratedMSBuildEditorConfig.editorconfig
+/Users/markfussell/dev/src/dotnet/actors/interfaces/obj/Debug/net8.0/Counter.Interfaces.AssemblyInfoInputs.cache
+/Users/markfussell/dev/src/dotnet/actors/interfaces/obj/Debug/net8.0/Counter.Interfaces.AssemblyInfo.cs
+/Users/markfussell/dev/src/dotnet/actors/interfaces/obj/Debug/net8.0/Counter.Interfaces.csproj.CoreCompileInputs.cache
+/Users/markfussell/dev/src/dotnet/actors/interfaces/obj/Debug/net8.0/Counter.Interfaces.dll
+/Users/markfussell/dev/src/dotnet/actors/interfaces/obj/Debug/net8.0/refint/Counter.Interfaces.dll
+/Users/markfussell/dev/src/dotnet/actors/interfaces/obj/Debug/net8.0/Counter.Interfaces.pdb
+/Users/markfussell/dev/src/dotnet/actors/interfaces/obj/Debug/net8.0/ref/Counter.Interfaces.dll

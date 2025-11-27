@@ -1,0 +1,1066 @@
+== APP - ActorService == info: Microsoft.Hosting.Lifetime[14]
+== APP - ActorService ==       Now listening on: http://0.0.0.0:5008
+== APP - ActorService == info: Microsoft.Hosting.Lifetime[0]
+== APP - ActorService ==       Application started. Press Ctrl+C to shut down.
+== APP - ActorService == info: Microsoft.Hosting.Lifetime[0]
+== APP - ActorService ==       Hosting environment: Production
+== APP - ActorService == info: Microsoft.Hosting.Lifetime[0]
+== APP - ActorService ==       Content root path: /Users/markfussell/dev/src/dotnet/actors/service
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 GET http://127.0.0.1:5008/dapr/config - application/json -
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Config'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Config'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 GET http://127.0.0.1:5008/dapr/config - 200 - application/json 73.5989ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 7
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 64.4832ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 6
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 3.8984ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 33.7341ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 129
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 2.4358ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.8460ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/DecreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/DecreaseBrightnessAsync - 200 - - 5.1895ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/DecreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/DecreaseBrightnessAsync - 200 - - 2.3525ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2774ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/ResetAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/ResetAsync - 200 - - 3.7217ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2866ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 2.4801ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 3.6669ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 2.2097ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 2.9660ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 1.7790ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 2.0323ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 1.6084ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 2.5145ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 1.9973ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - application/octet-stream;+charset=utf-8 128
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/IncreaseBrightnessAsync - 200 - - 2.8596ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2139ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1425ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5919ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.8529ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 3.1982ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 9
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 4.4578ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3685ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.8309ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 1.0033ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5134ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.4697ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 1.7496ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.8299ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5547ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5760ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 2.2470ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 8
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 6.2125ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3890ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.8939ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5686ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2721ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3642ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.7523ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 3.0746ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.9012ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 1.2414ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 2.2932ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 7
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 15.3894ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5385ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.9506ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3316ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5575ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 6.4724ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3060ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.8311ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 1.1945ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.8432ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.8187ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 6
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 6.8769ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2942ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.4653ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5841ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1907ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2082ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 1.1300ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5662ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2192ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 8.4169ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5965ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 5
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 21.4055ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1800ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5949ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1782ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3097ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.6000ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3127ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2014ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3793ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 5.1976ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3327ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 4
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 7.7831ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1769ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.7338ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.4270ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3966ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 1.6022ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.7827ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3598ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5250ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1507ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1597ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 3
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 5.7299ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1518ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2830ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 1.4075ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3097ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1426ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.4303ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2755ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2478ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 2.5211ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3256ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 2
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 7.3210ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 1.0762ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1878ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 3.8197ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3838ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.3758ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1889ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 1.4793ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1815ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.4674ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 1
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 5.8896ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1645ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1490ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1399ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.7971ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1375ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 6.9962ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1163ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1494ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.4010ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.5710ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Light.Service.LightActor[0]
+== APP - ActorService ==       [light-42] Auto-dimmed brightness to 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 6.0207ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.2656ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - - 0
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Invoke'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/GetBrightnessAsync - 200 - - 0.1026ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 1.8544ms
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[1]
+== APP - ActorService ==       Request starting HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - application/json 36
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[0]
+== APP - ActorService ==       Executing endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Routing.EndpointMiddleware[1]
+== APP - ActorService ==       Executed endpoint 'Dapr Actors Reminder'
+== APP - ActorService == info: Microsoft.AspNetCore.Hosting.Diagnostics[2]
+== APP - ActorService ==       Request finished HTTP/1.1 PUT http://127.0.0.1:5008/actors/LightActor/light-42/method/remind/autodim - 200 0 - 1.7920ms
+
+termination signal received: shutting down
